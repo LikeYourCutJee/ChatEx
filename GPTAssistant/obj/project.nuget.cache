@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "sCIKyC9x7XaL6URCJKSmSKO1EhVwyl/nmCc2nwl0iEwz0FzMsMxsm1yZEsHvUdpcf4ZEa4z+eDCXi76Fft+IeA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\fbest\\source\\repos\\GPTAssistant\\GPTAssistant\\GPTAssistant.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\fbest\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\fbest\\.nuget\\packages\\restsharp\\110.2.0\\restsharp.110.2.0.nupkg.sha512",
+    "C:\\Users\\fbest\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\fbest\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
+    "C:\\Users\\fbest\\.nuget\\packages\\system.text.json\\7.0.2\\system.text.json.7.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

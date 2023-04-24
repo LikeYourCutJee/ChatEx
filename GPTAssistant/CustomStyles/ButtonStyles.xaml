@@ -1,0 +1,28 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Style x:Key="CustomStyleFlatCircleButton" TargetType="{x:Type Button}">
+        <Setter Property="Width" Value="16"/>
+        <Setter Property="Height" Value="16"/>
+        <Setter Property="Margin" Value="3,0,3,0"/>
+        <Setter Property="Padding" Value="0"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Grid>
+                        <Ellipse x:Name="Circle" Stroke="{Binding RelativeSource={RelativeSource TemplatedParent}, Path=Foreground}" StrokeThickness="1"/>
+                        <Ellipse x:Name="InnerCircle" Fill="{Binding RelativeSource={RelativeSource TemplatedParent}, Path=Foreground}" Margin="2"/>
+                    </Grid>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter TargetName="Circle" Property="StrokeThickness" Value="2"/>
+                            <Setter TargetName="InnerCircle" Property="Margin" Value="3"/>
+                        </Trigger>
+                        <Trigger Property="IsPressed" Value="True">
+                            <Setter TargetName="InnerCircle" Property="Margin" Value="4"/>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+</ResourceDictionary>
