@@ -8,6 +8,7 @@
             <ResourceDictionary.MergedDictionaries>
                 <ResourceDictionary Source="/GPTAssistant;component/CustomStyles/ButtonStyles.xaml" />
                 <ResourceDictionary Source="/GPTAssistant;component/CustomStyles/WindowStyles.xaml" />
+                <ResourceDictionary Source="/GPTAssistant;component/CustomStyles/CustomControls/CustomControlsStyles.xaml" />
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
     </Application.Resources>

@@ -10,6 +10,9 @@
     <Page Update="CustomStyles\ButtonStyles.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="CustomStyles\CustomControls\CustomControlsStyles.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="CustomStyles\WindowStyles.xaml">
       <SubType>Designer</SubType>
     </Page>

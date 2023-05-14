@@ -28,3 +28,35 @@ C:\Users\fbest\source\repos\GPTAssistant\GPTAssistant\obj\Debug\net6.0-windows\r
 C:\Users\fbest\source\repos\GPTAssistant\GPTAssistant\obj\Debug\net6.0-windows\CustomStyles\ButtonStyles.baml
 C:\Users\fbest\source\repos\GPTAssistant\GPTAssistant\obj\Debug\net6.0-windows\CustomStyles\WindowStyles.baml
 C:\Users\fbest\source\repos\GPTAssistant\GPTAssistant\obj\Debug\net6.0-windows\App.baml
+C:\Users\fbest\OneDrive\Рабочий стол\Chatex\ChatEx\GPTAssistant\bin\Debug\net6.0-windows\GPTAssistant.exe
+C:\Users\fbest\OneDrive\Рабочий стол\Chatex\ChatEx\GPTAssistant\bin\Debug\net6.0-windows\GPTAssistant.deps.json
+C:\Users\fbest\OneDrive\Рабочий стол\Chatex\ChatEx\GPTAssistant\bin\Debug\net6.0-windows\GPTAssistant.runtimeconfig.json
+C:\Users\fbest\OneDrive\Рабочий стол\Chatex\ChatEx\GPTAssistant\bin\Debug\net6.0-windows\GPTAssistant.dll
+C:\Users\fbest\OneDrive\Рабочий стол\Chatex\ChatEx\GPTAssistant\bin\Debug\net6.0-windows\GPTAssistant.pdb
+C:\Users\fbest\OneDrive\Рабочий стол\Chatex\ChatEx\GPTAssistant\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+C:\Users\fbest\OneDrive\Рабочий стол\Chatex\ChatEx\GPTAssistant\bin\Debug\net6.0-windows\RestSharp.dll
+C:\Users\fbest\OneDrive\Рабочий стол\Chatex\ChatEx\GPTAssistant\bin\Debug\net6.0-windows\System.Text.Encodings.Web.dll
+C:\Users\fbest\OneDrive\Рабочий стол\Chatex\ChatEx\GPTAssistant\bin\Debug\net6.0-windows\System.Text.Json.dll
+C:\Users\fbest\OneDrive\Рабочий стол\Chatex\ChatEx\GPTAssistant\bin\Debug\net6.0-windows\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\fbest\OneDrive\Рабочий стол\Chatex\ChatEx\GPTAssistant\obj\Debug\net6.0-windows\GPTAssistant.csproj.AssemblyReference.cache
+C:\Users\fbest\OneDrive\Рабочий стол\Chatex\ChatEx\GPTAssistant\obj\Debug\net6.0-windows\CustomStyles\ButtonStyles.baml
+C:\Users\fbest\OneDrive\Рабочий стол\Chatex\ChatEx\GPTAssistant\obj\Debug\net6.0-windows\CustomStyles\WindowStyles.baml
+C:\Users\fbest\OneDrive\Рабочий стол\Chatex\ChatEx\GPTAssistant\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\fbest\OneDrive\Рабочий стол\Chatex\ChatEx\GPTAssistant\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\fbest\OneDrive\Рабочий стол\Chatex\ChatEx\GPTAssistant\obj\Debug\net6.0-windows\GPTAssistant_MarkupCompile.cache
+C:\Users\fbest\OneDrive\Рабочий стол\Chatex\ChatEx\GPTAssistant\obj\Debug\net6.0-windows\GPTAssistant_MarkupCompile.lref
+C:\Users\fbest\OneDrive\Рабочий стол\Chatex\ChatEx\GPTAssistant\obj\Debug\net6.0-windows\App.baml
+C:\Users\fbest\OneDrive\Рабочий стол\Chatex\ChatEx\GPTAssistant\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\fbest\OneDrive\Рабочий стол\Chatex\ChatEx\GPTAssistant\obj\Debug\net6.0-windows\GPTAssistant.g.resources
+C:\Users\fbest\OneDrive\Рабочий стол\Chatex\ChatEx\GPTAssistant\obj\Debug\net6.0-windows\GPTAssistant.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fbest\OneDrive\Рабочий стол\Chatex\ChatEx\GPTAssistant\obj\Debug\net6.0-windows\GPTAssistant.AssemblyInfoInputs.cache
+C:\Users\fbest\OneDrive\Рабочий стол\Chatex\ChatEx\GPTAssistant\obj\Debug\net6.0-windows\GPTAssistant.AssemblyInfo.cs
+C:\Users\fbest\OneDrive\Рабочий стол\Chatex\ChatEx\GPTAssistant\obj\Debug\net6.0-windows\GPTAssistant.csproj.CoreCompileInputs.cache
+C:\Users\fbest\OneDrive\Рабочий стол\Chatex\ChatEx\GPTAssistant\obj\Debug\net6.0-windows\GPTAssistant.csproj.CopyComplete
+C:\Users\fbest\OneDrive\Рабочий стол\Chatex\ChatEx\GPTAssistant\obj\Debug\net6.0-windows\GPTAssistant.dll
+C:\Users\fbest\OneDrive\Рабочий стол\Chatex\ChatEx\GPTAssistant\obj\Debug\net6.0-windows\refint\GPTAssistant.dll
+C:\Users\fbest\OneDrive\Рабочий стол\Chatex\ChatEx\GPTAssistant\obj\Debug\net6.0-windows\GPTAssistant.pdb
+C:\Users\fbest\OneDrive\Рабочий стол\Chatex\ChatEx\GPTAssistant\obj\Debug\net6.0-windows\GPTAssistant.genruntimeconfig.cache
+C:\Users\fbest\OneDrive\Рабочий стол\Chatex\ChatEx\GPTAssistant\obj\Debug\net6.0-windows\ref\GPTAssistant.dll
+C:\Users\fbest\OneDrive\Рабочий стол\Chatex\ChatEx\GPTAssistant\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\fbest\OneDrive\Рабочий стол\Chatex\ChatEx\GPTAssistant\obj\Debug\net6.0-windows\CustomStyles\CustomControls\CustomControlsStyles.baml

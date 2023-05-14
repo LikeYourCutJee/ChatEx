@@ -22,38 +22,38 @@ using System.Windows.Shapes;
 
 namespace GPTAssistant
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
     public partial class MainWindow : Window
     {
-        public IChatBot AI { get; set; }
+        public IChatBot AI { get; set; } //Declaring a chatbot
+
+        //*** Declare requered UI elements to separate GUI
         public StackPanel ChatMessagesStackPanel { get; set; }
         public ScrollViewer ChatMessagesscrollViewer { get; set; }
         public TextBox UserTextBox { get; set; }
+        //***
 
-        private GlobalHotkey HidingHotKey;
+        private GlobalHotkey HidingHotKey; //Declareing global hotkey
 
-        public MainWindow()
+        public MainWindow()//Initializing fields
         {
             InitializeComponent();
 
-            HidingHotKey = new GlobalHotkey(new WindowInteropHelper(this).Handle, HideShowWindow, 0x1, (int)KeyInterop.VirtualKeyFromKey(Key.A), 9000);
+            HidingHotKey = new GlobalHotkey(new WindowInteropHelper(this).Handle, HideShowWindow, 0x1, (int)KeyInterop.VirtualKeyFromKey(Key.A), 9000);//Registering global hotkey
 
-            AI = new ChatGptBot(OpenAiChatBotApi.ChatBots.Gpt.Enums.GptModels.gpt3_5_turbo, "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");
+            AI = new ChatGptBot(OpenAiChatBotApi.ChatBots.Gpt.Enums.GptModels.gpt3_5_turbo, "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");//Creating a bot
 
-            ChatMessagesStackPanel = ChatStackPanel;
+            ChatMessagesStackPanel = ChatStackPanel;//Assign UI elements
             ChatMessagesscrollViewer = MainScrollVieser;
             UserTextBox = ClientTextBox;
 
         }
 
-        private void CloseWindow(object sender, EventArgs e) 
+        private void CloseWindow(object sender, EventArgs e) //Closing window method
         {
             Close();
         }
 
-        private void HideShowWindow() 
+        private void HideShowWindow() //Hide window method with animation
         {
             if(this.IsVisible) 
             {
@@ -65,21 +65,21 @@ namespace GPTAssistant
             }
         }
 
-        private void ClearChat(object sender, RoutedEventArgs e)
+        private void ClearChat(object sender, RoutedEventArgs e) //CLearing chat stackpanel end reseting chatbot conversation
         {
-            AI.ClearConversation();
-            ChatMessagesStackPanel.Children.Clear();
+            AI.ClearConversation(); // Reset chatbot
+            ChatMessagesStackPanel.Children.Clear();// Clear stack panel
         }
 
         private async void ConverstionTextBox_PreviewKeyDown(object sender, KeyEventArgs e)
         {
             if ((Keyboard.Modifiers & ModifierKeys.Control) == ModifierKeys.Control && e.Key == Key.V)
             {
-                TextBoxCustomBehaviour.PasteText(sender as TextBox);
+                TextBoxCustomBehaviour.PasteText(sender as TextBox);//Pasting raw text logic
             }
             else if ((Keyboard.Modifiers & ModifierKeys.Shift) == ModifierKeys.Shift && e.Key == Key.Enter)
             {
-                TextBoxCustomBehaviour.GoToNextRow(sender as TextBox);
+                TextBoxCustomBehaviour.GoToNextRow(sender as TextBox);// Offseting logic
             }
             else if (e.Key == Key.Enter)
             {
@@ -87,9 +87,9 @@ namespace GPTAssistant
             }
         }
 
-        private async Task UpdateChat()
+        private async Task UpdateChat()// Main conversation logic
         {
-            var Question = UserTextBox.Text;
+            var Question = UserTextBox.Text;// Creating new textbox with user message
             var QuestionTextbox = new TextBox()
             {
                 Text = Question,
@@ -106,7 +106,7 @@ namespace GPTAssistant
 
             UserTextBox.Text = "";
 
-            var ResponseTextbox = new TextBox()
+            var ResponseTextbox = new TextBox()// Creating response textbox with chatAI respond
             {
                 IsReadOnly = true,
                 TextWrapping = TextWrapping.Wrap,
@@ -121,7 +121,7 @@ namespace GPTAssistant
 
             var Response = AI.SendRequestAsync(Question);
 
-            while (!Response.IsCompleted)
+            while (!Response.IsCompleted)//Simple animation to show process (Needs to be modified)
             {
                 ResponseTextbox.Text = "Writing.";
                 await Task.Delay(250);

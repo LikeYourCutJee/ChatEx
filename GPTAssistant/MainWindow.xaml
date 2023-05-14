@@ -12,12 +12,16 @@
         Left="0" Top="0"
         ResizeMode="CanResizeWithGrip"
         Topmost="True"
-        Title="MainWindow" Height="950" Width="450">
+        Title="MainWindow" 
+        Height="{Binding Source={x:Static SystemParameters.WorkArea}, Path=Height}"
+        Width="450"
+        Style="{StaticResource CustomStylesRoundWindow}">
 
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"></RowDefinition>
             <RowDefinition></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
             <RowDefinition Height="Auto"></RowDefinition>
         </Grid.RowDefinitions>
 
@@ -56,7 +60,8 @@
             <Border.Effect>
                 <DropShadowEffect BlurRadius="10" Color="LightGray" ShadowDepth="0" />
             </Border.Effect>
-            <TextBox 
+            <ScrollViewer VerticalScrollBarVisibility="Hidden">
+                <TextBox 
             Grid.Row="2" 
             x:Name="ClientTextBox" 
             PreviewKeyDown="ConverstionTextBox_PreviewKeyDown" 
@@ -65,8 +70,11 @@
             Foreground="White"
             Padding="0,5,5,5"
             Background="#343541"
-            FontSize="13">
+            FontSize="13"
+            MaxHeight="300">
             </TextBox>
+            </ScrollViewer>
         </Border>
+        <local:CustomResizeGrip Grid.Row="3"></local:CustomResizeGrip>
     </Grid>
 </Window>
